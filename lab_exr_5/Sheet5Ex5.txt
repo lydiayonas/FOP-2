@@ -1,0 +1,10 @@
+Write a program that accept N student record from the keyboard & store the list on a file “D:\\ Test.txt” in a text file format. Also write an other program that reads students record from the text file “D:|\ Test.txt” and display on the screen. (tip: create a header file which contain definition of two function getRecord() and displayrecord() and include it in your program).
+Modify your program in Q1 to store the student records a binary file. 
+Write a program which prints a table listing the number of occurrences of the lower-case characters 'a' to 'z' in a file "Sheet5Ex5.cpp". Declare only one variable of type "ifstream", one variable of type "char", and two variables of type "int". The program should produce output such as the following
+	         CHARACTER                     OCCURRENCES
+		a                  		 38
+		b                 		  5
+		c                  		 35
+		-			   -
+		-			   -
+Write a function that takes the name of a file (char*) that  contains integer records, an array of int and the address of a variable count. Define the function to read the file into the array. Assume  that the array has enough space to hold the file. count should be updated to the number of entries in the file.
