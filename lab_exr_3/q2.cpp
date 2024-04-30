@@ -26,10 +26,10 @@ int main() {
     cout << "Enter width of rectangle: ";
     cin >> w;
 
-    area rectangle; // Creating an object of the area class
-    rectangle.setdim(l, w); // Setting dimensions using the setdim function
+    area rectangle; 
+    rectangle.setdim(l, w); 
 
-    cout << "Area of the rectangle is: " << rectangle.getarea() << endl; // Getting area using the getarea function
+    cout << "Area of the rectangle is: " << rectangle.getarea() << endl; 
 
     return 0;
 }
