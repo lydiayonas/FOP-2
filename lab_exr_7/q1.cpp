@@ -1,35 +1,30 @@
 #include <iostream>
 using namespace std;
 
-
 template <typename T>
 
-void printArray(T arr[], int size){
+void printArray(T arr[],int n){
 
-for(int i=0;i<size;i++){
-    cout<<arr[i]<<" ";
-}
-cout<<endl;
+    for(int i=0;i<n;i++){
+
+        cout<<arr[i]<<" ";
+    }
+    cout<<endl;
 }
 
 int main()
 {
 
-int intArray[]={1,2,3,4,5,6};
- int intSize = sizeof(intArray) / sizeof(intArray[0]);
-    cout << "Integer array: ";
-    printArray(intArray, intSize);
+int intarr[]={2,3,4};
+int intsize= sizeof(intarr)/sizeof(intarr[0]);
+cout<<"integer array"<<endl;
+printArray(intarr,intsize);
 
-float floatarray[]={1.1,1.2,1.3,1.4};
-float floatsize = sizeof(floatarray )/ sizeof(floatarray[0]);;
 
-cout<<"Float array: ";
-printArray(floatarray, floatsize);
-
-char charArray[]={'a','b','c','d'};
- int charSize = sizeof(charArray) / sizeof(charArray[0]);
-    cout << "character array: ";
-    printArray(charArray, charSize);
+float floatarr[]={2.1,3.4,4.4};
+float floatsize=sizeof(floatarr)/sizeof(floatarr[0]);
+cout<<"the float array"<<endl;
+printArray(floatarr, floatsize);
 
 return 0;
 }
