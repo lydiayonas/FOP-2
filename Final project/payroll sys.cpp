@@ -8,7 +8,7 @@
 
 using namespace std;
 
-const string PASSWORD = "trantulas"; // Set your password here
+const string PASSWORD = "123"; // Set your password here
 
 // Define a structure to represent an Employeea
 struct Employee {
@@ -151,7 +151,7 @@ void addEmployee(vector<Employee>& employees, double& managerTotal, double& hour
 
         if (newEmployee.payCode == 0) {
             break;
-        }else
+        }
 
         // Consume newline
         cin.ignore();
